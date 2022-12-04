@@ -131,14 +131,14 @@ const playerMoviment = event => {
         flag = true
 
         }
-        else if (event.code === 'ArrowUp'){
-            if (config.translationY <= 32)
-                config.translationY +=1
-        }
-        else if (event.code === 'ArrowDown'){
-            if (config.translationY >= -32)
-                config.translationY -=1
-        }
+//         else if (event.code === 'ArrowUp'){
+//             if (config.translationY <= 32)
+//                 config.translationY +=1
+//         }
+//         else if (event.code === 'ArrowDown'){
+//             if (config.translationY >= -32)
+//                 config.translationY -=1
+//         }
     }
 }
 
